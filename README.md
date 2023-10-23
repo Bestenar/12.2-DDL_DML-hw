@@ -47,20 +47,23 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 ### Задание 2
 
-Название таблицы | Название первичного ключа
-language         | language_id
-film             | film_id
-category         | category_id
-film_category    | film_id; category_id
-actor            | actor_id
-film_actor       | actor_id; film_id
-film_text        | film_id
-inventory        | inventory_id
-customer         | customer_id
-rental           | rental_id
-payment          | payment_id
-store            | store_id
-staff            | staff_id
-address          | adress_id
-city             | city_id
-country          | country_id
+Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц.
+
+| Название таблицы  | Название первичного ключа |
+| ------------- | ------------- |
+| language  | language_id  |
+| film  | film_id  |
+| category  | category_id  |
+| film_category  | film_id; category_id  |
+| actor | actor_id  |
+| film_actor  | actor_id; film_id  |
+| film_text  | film_id  |
+| inventory  | inventory_id  |
+| customer  | customer_id  |
+| rental  | rental_id  |
+| payment  | payment_id  |
+| store  | store_id  |
+| staff  | staff_id  |
+| address  | adress_id  |
+| city  | city_id  |
+| country  | country_id  |
